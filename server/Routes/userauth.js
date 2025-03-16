@@ -57,7 +57,7 @@ userauth.post('/login',async(req,res)=>{
         const{UserName,password}=req.body;
         const result= await user.findOne({userName:UserName});
         if(!result){
-            res.status(400).send("Invaild User name");
+            res.status(404).send("Invaild User name");
         }
         else
         {  

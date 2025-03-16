@@ -22,23 +22,7 @@ function Navbar() {
   };
 
   return (
-    // <nav>
-    //   <div className="bg-zinc-500">
-    //     <h1 className="text-3xl ml-5 pt-2 pb-2 font-extrabold text-white">CareWare</h1>
-    //   </div>
-    //   <div className="bg-zinc-500 mt-2 h-10 md:space-x-12 space-x-2 md:w-full drop-shadow-xl shadow-gray-950">
-    //     <Link to={'/home'} className="md:text-base font-bold text-sm text-white ml-[550px] hover:text-black">Dashboard</Link>
-    //     <Link to={'/products'} className="md:text-base font-bold text-sm text-white hover:text-black">Inventory</Link>
-    //     <Link to={'/staff'} className="md:text-base font-bold text-sm text-white hover:text-black">Staffs</Link>
-    //     <Link to={'/addproduct'} className="md:text-base font-bold text-sm text-white hover:text-black">Add stock</Link>
-    //     <Link to={'/Orderlist'} className="md:text-base font-bold text-sm text-white hover:text-black">Orders</Link>
-    //     {/* Call handleLogout when clicking Logout */}
-    //     <button onClick={handleLogout} className="md:text-base font-bold text-sm text-white hover:text-black">
-    //       LogOut
-    //     </button>
-    //   </div>
-    // </nav>
-
+    
 
     <nav>
     <div className="bg-zinc-500">

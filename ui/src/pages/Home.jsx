@@ -30,68 +30,7 @@ function Home() {
     };
 
     return (
-        // <div className="bg-slate-200">
-            
-        //     <div className="bg-zinc-500 drop-shadow-xl shadow-gray-950">
-        //         <h1 className="text-3xl ml-5 pt-2 pb-2 font-extrabold text-white">CareWare</h1>
-        //     </div>
-
-        //     <div className="flex md:space-x-4 space-x-1">
-                
-        //         <div className="bg-zinc-500 md:w-[200px] w-[80px] md:h-[570px] h[700px] p-3">
-        //             <Link to={'/home'} className="md:text-xl  mt-5 mb-5   md:flex">
-        //                 <img src={grid} className="md:size-8 size-6 pl-2" />
-        //                 <p className="md:pl-5 md:text-lg text-sm">Dashboard</p>
-        //             </Link>
-
-        //             <Link to={'/products'} className="md:text-xl  mt-5 mb-5   md:flex">
-        //                 <img src={box} className="md:size-8 size-6 pl-2" />
-        //                 <p className="md:pl-5 md:text-lg text-sm">Inventory</p>
-        //             </Link>
-
-        //             <Link to={'/addProduct'} className="md:text-xl  mt-5 mb-5   md:flex">
-        //                 <img src={plus} className="md:size-8 size-6 pl-2" />
-        //                 <p className="md:pl-5 md:text-lg text-sm">Quick Add</p>
-        //             </Link>
-
-        //             <Link to={"/staff"} className="md:flex items-center space-x-2">
-        //                 <img src={user} className="md:size-8 size-6 pl-2" />
-        //                 <p className="md:pl-5 md:text-lg text-sm">Staffs</p>
-        //             </Link>
-
-        //             <Link to="/Orderlist" className="md:text-xl  mt-5 mb-5   md:flex">
-        //                 <img src={file} className="md:size-8 size-6 pl-2" />
-        //                 <p className="md:pl-5 md:text-lg text-sm">Orders</p>
-        //             </Link>
-
-        //             <button onClick={handleLogout} className="md:flex items-center space-x-2 w-full text-left">
-        //                 <img src={share} className="md:size-8 size-6 pl-2" />
-        //                 <p className="md:pl-5 md:text-lg text-sm">Log Out</p>
-        //             </button>
-        //         </div>
-                
-                
-        //         <div className="flex-1">
-                   
-        //             <div className="bg-zinc-400 flex md:w-[998px] w-[250px] rounded-2xl drop-shadow-2xl space-x-4 shadow-gray-950 md:mt-10 mt-5 md:mx-10 p-4">
-        //                 <img src={image} className="md:w-[300px] w-[190px]" />
-        //                 <h1 className="font-bold md:text-2xl text-xs ">
-        //                     Never worry about your inventory
-        //                     <br /> Inventory management is about balance:
-        //                     <br /> Too much ties up capital, too little stops progress.
-        //                 </h1>
-        //             </div>
-
-                    
-        //             <div >
-        //             <StockAlert />
-                       
-        //             </div>
-
-                    
-        //         </div>
-        //     </div>
-        // </div>
+        
 
     <div className="bg-slate-200 min-h-screen">
     <div className="bg-zinc-500 drop-shadow-xl shadow-gray-950">

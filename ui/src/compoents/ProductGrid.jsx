@@ -39,32 +39,7 @@ const ProductGrid = () => {
     };
     
     return (
-        // <div>
-        //     <h1 className="font-extrabold mt-10 md:ml-[500px] ml-2 text-xl">MEDICAL PRODUCTS</h1>
-        //     <br/><br/>
-        //     <div className="mx-32">
-        //         <button className="bg-indigo-950 md:w-[250px] w-[180px] text-white font-bold rounded-2xl ml-10">
-        //             <Link to={'/products'}>All</Link>
-        //         </button>
-        //         <button className="bg-indigo-950 md:w-[250px] w-[180px] text-white font-bold rounded-2xl ml-10">
-        //             <Link to={"/dis_product"}>Disposable Product</Link>
-        //         </button>
-        //         <button className="bg-indigo-950 md:w-[250px] w-[180px] text-white font-bold rounded-2xl ml-10">
-        //             <Link to={"/non_product"}>Non-disposable Product</Link>
-        //         </button>
-        //     </div>
-        //     {loading ? (
-        //         <h1>Loading...</h1>
-        //     ) : (
-        //         <div className="grid md:grid-cols-3 gap-4 md:mt-20 mt-5 mr-2">
-        //             {products.map((product) => (
-        //                 <ProductCard key={product.p_Id} product={product} onDelete={handleDelete} />
-        //             ))}
-        //         </div>
-        //     )}
-        // </div>
-
-        <div>
+    <div>
     <h1 className="font-extrabold mt-10 text-xl text-center md:text-left md:ml-[500px] ml-2">MEDICAL PRODUCTS</h1>
     <br /><br />
     <div className="flex flex-wrap justify-center md:justify-start mx-5 md:mx-32 gap-4">
